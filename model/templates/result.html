@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div id="brandname">
+				Summary of your resume.
+			</div>
+		</div>
+	</header>
+	<div>
+		{% for value in prediction %}
+
+			<p>{{ value }} </p>
+
+		{% endfor %}
+	</div>
+	<form action="/">
+	<div class="upload-btn-wrapper">
+		<button id="btn">Back to Homepage</button>
+	</div>
+	</form>
+</body>
+</html>

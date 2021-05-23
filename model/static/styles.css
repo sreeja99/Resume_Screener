@@ -1,0 +1,91 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-color:deepskyblue;
+	margin : 0px;
+
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background:#03A9F4;
+	height:120px;
+	width:100%;
+	padding-top:10px;
+}
+
+#background{
+	background-image: url("../image/BackgroundImage.jpg");
+	height: 300px;
+}
+
+.main-header{
+	text-align:center;
+	height:100px;
+	width:100%;
+	margin:0px;
+}
+
+#brandname{
+	font-size:3.5rem;
+	padding: 0px;
+	color: rgb(106, 0, 226);
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ml-container{
+	text-align: center;
+}
+
+.btn-info {background-color: #2196F3;
+	height:40px;
+	width:100px;
+}
+
+.btn-info:hover {
+	background: #0b7dda;
+}
+
+#heading{
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.results{
+	border-radius: 15px 50px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
+
+.upload-btn-wrapper {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 20px;
+}
+  
+.btn {
+	border: 2px solid gray;
+	color: gray;
+	background-color: white;
+	padding: 8px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+.upload-btn-wrapper input[type=file] {
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+  }
